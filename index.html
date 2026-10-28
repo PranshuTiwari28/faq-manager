@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+   <meta charset="UTF-8">
+
+
+   <meta
+       name="viewport"
+       content="width=device-width, initial-scale=1.0"
+   >
+
+
+   <title>FAQ Manager</title>
+
+
+   <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+
+   <div class="container">
+
+
+       <h1>FAQ Manager</h1>
+
+
+       <p class="subtitle">
+           Practice DOM Traversal & Navigation
+       </p>
+
+
+
+
+  
+
+
+       <div id="faqContainer">
+
+
+
+
+           <!-- FAQ 1 -->
+
+
+           <div class="faq">
+
+
+               <div class="faq-header">
+
+
+                   <h3>
+                       What is JavaScript?
+                   </h3>
+
+
+                   <button class="toggle-btn">
+                       Show Answer
+                   </button>
+
+
+               </div>
+
+
+               <p class="answer">
+                   JavaScript is a programming language
+                   used to make web pages interactive.
+               </p>
+
+
+               <button class="delete-btn">
+                   Delete
+               </button>
+
+
+           </div>
+
+
+
+
+           <!-- FAQ 2 -->
+
+
+           <div class="faq">
+
+
+               <div class="faq-header">
+
+
+                   <h3>
+                       What is the DOM?
+                   </h3>
+
+
+                   <button class="toggle-btn">
+                       Show Answer
+                   </button>
+
+
+               </div>
+
+
+               <p class="answer">
+                   DOM stands for Document Object Model.
+                   It represents the HTML document as a
+                   tree of objects.
+               </p>
+
+
+               <button class="delete-btn">
+                   Delete
+               </button>
+
+
+           </div>
+
+
+
+
+           <!-- FAQ 3 -->
+
+
+           <div class="faq">
+
+
+               <div class="faq-header">
+
+
+                   <h3>
+                       What is DOM traversal?
+                   </h3>
+
+
+                   <button class="toggle-btn">
+                       Show Answer
+                   </button>
+
+
+               </div>
+
+
+               <p class="answer">
+                   DOM traversal means navigating between
+                   related elements such as parents,
+                   children and siblings.
+               </p>
+
+
+               <button class="delete-btn">
+                   Delete
+               </button>
+
+
+           </div>
+
+
+       </div>
+
+
+
+
+            <!-- ADD FAQ -->
+
+
+
+
+       <div class="add-section">
+
+
+           <h2>Add New FAQ</h2>
+
+
+           <input
+               type="text"
+               id="questionInput"
+               placeholder="Enter question"
+           >
+
+
+           <textarea
+               id="answerInput"
+               placeholder="Enter answer"
+           ></textarea>
+
+
+           <button id="addBtn">
+               Add FAQ
+           </button>
+
+
+       </div>
+
+
+
+
+
+
+       <div class="controls">
+
+
+           <p>
+               Total FAQs:
+               <strong id="faqCount">3</strong>
+           </p>
+
+
+           <button id="clearBtn">
+               Clear All FAQs
+           </button>
+
+
+       </div>
+
+
+   </div>
+
+
+
+
+   <script src="script.js"></script>
+
+
+</body>
+
+
+</html>
